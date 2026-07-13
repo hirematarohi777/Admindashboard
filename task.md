@@ -1,0 +1,30 @@
+# Tasks
+
+- [x] Initialize Vite Project & Setup Tailwind
+  - [x] Create Vite app with React template
+  - [x] Install dependencies (`react-router-dom`, `framer-motion`, `lucide-react`, `recharts`, `leaflet`, `react-leaflet`)
+  - [x] Configure Tailwind CSS & styles (`tailwind.config.js`, `index.css`)
+- [x] Implement State Management & Contexts
+  - [x] Create `ThemeContext` (Light/Dark mode toggle)
+  - [x] Create `NotificationContext` (Toasts and global alert feeds)
+  - [x] Create `DataContext` (Central store for simulated live entities and actions)
+- [x] Build Reusable UI Components
+  - [x] Core styling utilities (Buttons, Inputs, Toggles, Badges)
+  - [x] Reusable Layout components (Sidebar, Navbar, Breadcrumbs)
+  - [x] Reusable Table with search, sorting, filtering, and pagination
+  - [x] Reusable Modals & Confirmation dialogs
+- [x] Create Mock Data
+  - [x] Define JSON structures for Hospitals, Drivers, Ambulances, Medical Officers, Traffic Centers, Emergencies, Trips, and Audit Logs
+- [x] Implement Pages & Features
+  - [x] Dashboard Command Center (Statistics cards, active charts, IoT health board)
+  - [x] User Directories (Hospitals, Medical Officers, Drivers, Ambulances, Traffic Centers)
+  - [x] Live IoT & Emergency Feeds
+  - [x] Historical Trip Monitoring & Path Playback
+  - [x] Interactive City Map (Markers, Leaflet configurations, layers)
+  - [x] Reports & Analytics (Performance charts, export triggers)
+  - [x] Audit Logs (Timeline and filters)
+  - [x] System Configurations (Buzzer controllers, backups, role permissions)
+- [x] Verification & Building
+  - [x] Test responsively on mock device sizes
+  - [x] Run build validation
+  - [x] Create walkthrough summary
